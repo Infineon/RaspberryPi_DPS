@@ -1,7 +1,7 @@
 Introduction
 ============
 
-Python driver for Infineon Digital Baroetric Air Pressure Sensor(DPS). This one driver is compatible with all the different versions of S2GO Digital Baroetric Air Pressure Sensor coming from Infineon. 
+Python driver for Infineon Digital Barometric Air Pressure Sensor(DPS). This single driver is compatible with all the different versions of S2GO Digital Barometric Air Pressure Sensor from Infineon. 
 
 Different versions of DPS-
 ---------------------------
@@ -37,6 +37,12 @@ To install system-wide (this may be required in some cases):
 sudo pip3 install DigitalPressureSensor
 
 ```
+
+Connection diagram:
+-------------------
+<img src="https://github.com/Infineon/Assets/blob/master/Pictures/RPi_Connection_DPS.PNG">  
+
+**Note-** Connection diagram given with DPS310 and Raspberry pi is just for reference, all the three versions of DPS will be connected in the same way with any of the Raspberry pi.
 
 Steps for installation
 ----------------------
@@ -80,5 +86,5 @@ sudo apt-get install -y python-smbus i2c-tools
 ```
 
 
-* Clone the Github repository or download the .zip, unzip it go to examples folder and run the sample code.
+* Clone the Github repository or download the .zip, unzip it, go to examples folder and run the sample code.
 
