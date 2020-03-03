@@ -40,7 +40,15 @@ sudo pip3 install DigitalPressureSensor
 
 Connection diagram:
 -------------------
-<img src="https://github.com/Infineon/Assets/blob/master/Pictures/RPi_Connection_DPS.PNG">  
+<img src="https://github.com/Infineon/Assets/blob/master/Pictures/RPi_Connection_DPS.PNG" width=550 >  
+
+| Raspberry Pi | DPS |
+| :---: |:---:|
+| 3.3V | 3V3 |
+| GND | GND |
+| BCM 2 (pin3) | SDA |
+| BCM 3 (pin 5) | SCL |
+
 
 **Note-** Connection diagram given with DPS310 and Raspberry pi is just for reference, all the three versions of DPS will be connected in the same way with any of the Raspberry pi.
 
