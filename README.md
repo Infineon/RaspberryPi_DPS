@@ -19,39 +19,6 @@ This driver depends on:
 
 Please ensure all dependencies are resolved before proceeding further.
 
-Installing from PyPI
---------------------
-
-On supported GNU/Linux systems like the Raspberry Pi, you can install the driver from [PyPI](https://pypi.org/)
-
-For current user:
-```
-
-pip3 install DigitalPressureSensor
-
-```
-
-To install system-wide (this may be required in some cases):
-```
-
-sudo pip3 install DigitalPressureSensor
-
-```
-
-Connection diagram:
--------------------
-<img src="https://github.com/Infineon/Assets/blob/master/Pictures/RPi_Connection_DPS.PNG" width=550 >  
-
-| Raspberry Pi | DPS |
-| :---: |:---:|
-| 3.3V | 3V3 |
-| GND | GND |
-| BCM 2 (pin3) | SDA |
-| BCM 3 (pin 5) | SCL |
-
-
-**Note-** Connection diagram given with DPS310 and Raspberry pi is just for reference, all the three versions of DPS will be connected in the same way with any of the Raspberry pi.
-
 Steps for installation
 ----------------------
 
@@ -92,6 +59,41 @@ pip3 install smbus
 sudo apt-get install -y python-smbus i2c-tools
 
 ```
+
+Installing from PyPI
+--------------------
+
+On supported GNU/Linux systems like the Raspberry Pi, you can install the driver from [PyPI](https://pypi.org/)
+
+For current user:
+```
+
+pip3 install DigitalPressureSensor
+
+```
+
+To install system-wide (this may be required in some cases):
+```
+
+sudo pip3 install DigitalPressureSensor
+
+```
+
+Connection diagram:
+-------------------
+<img src="https://github.com/Infineon/Assets/blob/master/Pictures/RPi_Connection_DPS.PNG" width=550 >  
+
+| Raspberry Pi | DPS |
+| :---: |:---:|
+| 3.3V | 3V3 |
+| GND | GND |
+| BCM 2 (pin3) | SDA |
+| BCM 3 (pin 5) | SCL |
+
+
+**Note-** Connection diagram given with DPS310 and Raspberry pi is just for reference, all the three versions of DPS will be connected in the same way with any of the Raspberry pi.
+
+
 
 
 * Clone the Github repository or download the .zip, unzip it, go to examples folder and run the sample code.
