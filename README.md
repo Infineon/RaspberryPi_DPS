@@ -1,3 +1,5 @@
+[![PyPI](https://img.shields.io/pypi/v/DigitalPressureSensor.svg)](https://pypi.org/project/DigitalPressureSensor/)
+
 Introduction
 ============
 
