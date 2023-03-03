@@ -312,7 +312,7 @@ class DPS:
 
 
 
-        c21 = (src1E < 8) | src1F
+        c21 = (src1E << 8) | src1F
 
         c21 = getTwosComplement(c21, 16)
 
