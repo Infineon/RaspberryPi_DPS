@@ -1,3 +1,4 @@
+[![Check links](https://github.com/Infineon/XMC-for-Arduino/actions/workflows/check_links.yml/badge.svg)](https://github.com/Infineon/XMC-for-Arduino/actions/workflows/check_links.yml)
 [![PyPI](https://img.shields.io/pypi/v/DigitalPressureSensor.svg)](https://pypi.org/project/DigitalPressureSensor/)      [![Gitter](https://badges.gitter.im/MakerConerFor_DPS/community.svg)](https://gitter.im/MakerConerFor_DPS/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 Introduction
@@ -7,9 +8,9 @@ Python driver for Infineon Digital Barometric Air Pressure Sensor(DPS). This sin
 
 Different versions of DPS-
 ---------------------------
-* [DPS310](https://github.com/Infineon/DPS310-Pressure-Sensor) The barometric pressure sensors DPS310 offers excellent pressure noise performance and high stability with temperature. [Product](https://www.infineon.com/cms/en/product/sensor/pressure-sensors/absolute-pressure-sensors-map-bap/dps310/)
+* [DPS310](https://github.com/Infineon/DPS310-Pressure-Sensor) The barometric pressure sensors DPS310 offers excellent pressure noise performance and high stability with temperature. [Product](https://www.infineon.com/part/DPS310)
 * [DPS368](https://github.com/Infineon/DPS368-Library-Arduino)  DPS368 is a miniaturized digital barometric air pressure sensor with ultra-high precision (±2 cm) and a low current consumption, capable of measuring both pressure and temperature. Due to its robust package, it can withstand 50 m under water for one hour (IPx8). [Product](https://www.infineon.com/cms/en/product/sensor/pressure-sensors/absolute-pressure-sensors-map-bap/dps368/)
-* [DPS422]() The DPS422 is a miniaturized digital barometric air pressure and temperature sensor with high accuracy and low current consumption. Pressure sensing is carried out using a capacitive sensor element, guaranteeing high accuracy over temperature. [Product](https://www.infineon.com/cms/en/product/sensor/pressure-sensors/absolute-pressure-sensors-map-bap/dps422/)
+* [DPS422]() The DPS422 is a miniaturized digital barometric air pressure and temperature sensor with high accuracy and low current consumption. Pressure sensing is carried out using a capacitive sensor element, guaranteeing high accuracy over temperature. [Product](https://www.infineon.com/part/DPS422)
 
 Dependencies
 ============
