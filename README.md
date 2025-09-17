@@ -1,5 +1,5 @@
 [![Check links](https://github.com/Infineon/RaspberryPi_DPS/actions/workflows/check_links.yml/badge.svg)](https://github.com/Infineon/RaspberryPi_DPS/actions/workflows/check_links.yml)
-[![PyPI](https://img.shields.io/pypi/v/DigitalPressureSensor.svg)](https://pypi.org/project/DigitalPressureSensor/)      [![Gitter](https://badges.gitter.im/MakerConerFor_DPS/community.svg)](https://gitter.im/MakerConerFor_DPS/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![PyPI](https://img.shields.io/pypi/v/DigitalPressureSensor.svg)](https://pypi.org/project/DigitalPressureSensor/)    
 
 Introduction
 ============
