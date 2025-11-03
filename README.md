@@ -4,25 +4,53 @@
 Introduction
 ============
 
-Python driver for Infineon Digital Barometric Air Pressure Sensor(DPS). This single driver is compatible with all the different versions of S2GO Digital Barometric Air Pressure Sensor from Infineon. 
+Python driver for Infineon Digital Barometric Air Pressure Sensor (DPS).
 
-Different versions of DPS-
----------------------------
-* [DPS310](https://github.com/Infineon/DPS310-Pressure-Sensor) The barometric pressure sensors DPS310 offers excellent pressure noise performance and high stability with temperature. [Product](https://www.infineon.com/part/DPS310)
-* [DPS368](https://github.com/Infineon/DPS368-Library-Arduino)  DPS368 is a miniaturized digital barometric air pressure sensor with ultra-high precision (±2 cm) and a low current consumption, capable of measuring both pressure and temperature. Due to its robust package, it can withstand 50 m under water for one hour (IPx8). [Product](https://www.infineon.com/cms/en/product/sensor/pressure-sensors/absolute-pressure-sensors-map-bap/dps368/)
-* [DPS422]() The DPS422 is a miniaturized digital barometric air pressure and temperature sensor with high accuracy and low current consumption. Pressure sensing is carried out using a capacitive sensor element, guaranteeing high accuracy over temperature. [Product](https://www.infineon.com/part/DPS422)
+<img src="/docs/img/dps368.png" width=200>
+
+## Supported Products
+
+<table>
+    <tr>
+        <td rowspan=2>Products</td>
+        <td><img src="docs/img/dps310.png" height="80"></td>
+        <td><img src="docs/img/dps368.png" height="80"></td>
+    </tr>
+    <tr>
+        <td style="text-align : center">XENSIV™ DPS310 *(deprecated)*</td>
+        <td style="text-align : center"><a href="https://www.infineon.com/cms/de/product/sensor/pressure-sensors/pressure-sensors-for-iot/dps368/">XENSIV™ DPS368</a></td>
+    </tr>
+    <tr>
+        <td rowspan=2>Shield2Go</td>
+        <td><img src="docs/img/dps310-shield2go.png" height="80"></td>
+        <td><img src="docs/img/dps368-shield2go.png" height="80"></td>
+    </tr>
+    <tr>
+        <td style="text-align : center">XENSIV™ DPS310 Shield2Go *(deprecated)*</td>
+        <td style="text-align : center"><a href="https://www.infineon.com/cms/en/product/evaluation-boards/s2go-pressure-dps368/">XENSIV™ DPS368 Shield2Go *(deprecated)*</a></td>
+    </tr>
+    <tr>
+       <td rowspan=2>Kit 2Go</td>
+        <td><img src="docs/img/dps310-kit2go.png" height="80"></td>
+        <td><img src="docs/img/dps368-kit2go.png" height="80"></td>
+    </tr>
+    <tr>
+        <td style="text-align : center">XENSIV™ DPS310 Kit 2Go *(deprecated)*</a></td>
+        <td style="text-align : center"><a href="https://www.infineon.com/cms/en/product/evaluation-boards/kit_dps368_2go/">XENSIV™ DPS368 Kit 2Go</a></td>
+    </tr>
+</table>
 
 Dependencies
 ============
 
 This driver depends on:
 
-* python version 3 and above
+* python >= 3.0
 * [SMBus](https://github.com/kplindegaard/smbus2)
 
 Please ensure all dependencies are resolved before proceeding further.
 
-Steps for installation
+Steps for Installation
 ----------------------
 
 Supported hardware --> Raspberry pi Zero/3/3B+/4B
@@ -36,7 +64,7 @@ sudo apt update
 ```
 
 
-* Enable i2c (Interfacing options menu and then I2C enable). For detailed steps see this [article](https://www.raspberrypi-spy.co.uk/2014/11/enabling-the-i2c-interface-on-the-raspberry-pi/).
+* Enable I2C (Interfacing options menu and then I2C enable).
 
 ```
 
@@ -66,7 +94,7 @@ sudo apt-get install -y python-smbus i2c-tools
 Installing from PyPI
 --------------------
 
-On supported GNU/Linux systems like the Raspberry Pi, you can install the driver from [PyPI](https://pypi.org/)
+On supported GNU/Linux systems like Raspberry Pi OS, you can install the driver from [PyPI](https://pypi.org/)
 
 For current user:
 ```
@@ -94,10 +122,7 @@ Connection diagram:
 | BCM 3 (pin 5) | SCL |
 
 
-**Note-** Connection diagram given with DPS310 and Raspberry pi is just for reference, all the three versions of DPS will be connected in the same way with any of the Raspberry pi.
-
-
-
+**Note-** Connection diagram given with DPS310 and Raspberry Pi is just for reference, all the three versions of DPS will be connected in the same way with any of the Raspberry Pi.
 
 * Clone the Github repository or download the .zip, unzip it, go to examples folder and run the sample code.
 
