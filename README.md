@@ -18,7 +18,7 @@ Python driver for Infineon Digital Barometric Air Pressure Sensor (DPS).
     </tr>
     <tr>
         <td style="text-align : center">XENSIV™ DPS310 *(deprecated)*</td>
-        <td style="text-align : center"><a href="https://www.infineon.com/cms/de/product/sensor/pressure-sensors/pressure-sensors-for-iot/dps368/">XENSIV™ DPS368</a></td>
+        <td style="text-align : center"><a href="https://www.infineon.com/part/DPS368">XENSIV™ DPS368</a></td>
     </tr>
     <tr>
         <td rowspan=2>Shield2Go</td>
@@ -27,7 +27,7 @@ Python driver for Infineon Digital Barometric Air Pressure Sensor (DPS).
     </tr>
     <tr>
         <td style="text-align : center">XENSIV™ DPS310 Shield2Go *(deprecated)*</td>
-        <td style="text-align : center"><a href="https://www.infineon.com/cms/en/product/evaluation-boards/s2go-pressure-dps368/">XENSIV™ DPS368 Shield2Go *(deprecated)*</a></td>
+        <td style="text-align : center"><a href="https://www.infineon.com/evaluation-board/S2GO-PRESSURE-DPS368">XENSIV™ DPS368 Shield2Go *(deprecated)*</a></td>
     </tr>
     <tr>
        <td rowspan=2>Kit 2Go</td>
@@ -36,7 +36,7 @@ Python driver for Infineon Digital Barometric Air Pressure Sensor (DPS).
     </tr>
     <tr>
         <td style="text-align : center">XENSIV™ DPS310 Kit 2Go *(deprecated)*</a></td>
-        <td style="text-align : center"><a href="https://www.infineon.com/cms/en/product/evaluation-boards/kit_dps368_2go/">XENSIV™ DPS368 Kit 2Go</a></td>
+        <td style="text-align : center"><a href="https://www.infineon.com/evaluation-board/KIT-DPS368-2GO">XENSIV™ DPS368 Kit 2Go</a></td>
     </tr>
 </table>
 
